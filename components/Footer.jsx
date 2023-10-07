@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="text-sm">
             <p className="my-1 opacity-80 font-MyFont">
               Transform Your Refueling Experience! Discover real-time fuel
-              prices, locate nearby stations, and plan efficient routes with
+              conditions, locate nearby stations, and plan efficient routes with
               FuelEase. 
             </p>
             <p className="my-1 opacity-80 font-MyFont">
@@ -71,7 +71,7 @@ export default function Footer() {
               href="mailto:mayankkush0842@gmail.com"
               className="text-link mt-1 block font-MyFont underline decoration-dashed underline-offset-2 hover:decoration-solid "
             >
-              mayankkush0842@gmail <br className="flex md:hidden"></br>.com
+              fuller08@gmail <br className="flex md:hidden"></br>.com
             </Link>
           </p>
           <p className="mb-3 text-sm font-MyFont">
@@ -126,7 +126,7 @@ export default function Footer() {
               href="https://lordmashh.github.io/Portfolio_mayank/"
             >
               {" "}
-              Mayank kushwaha
+              white ninjas
             </Link>
             .
           </span>

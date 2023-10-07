@@ -5,7 +5,7 @@ export default function About() {
     <div>
       <div className="relative">
         <Image
-          src="/petroll.jpg"
+          src="/indian.jpg"
           className="object-cover brightness-50 w-full h-[250px]"
           width={500}
           height={200}

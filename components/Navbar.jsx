@@ -2,12 +2,10 @@
 import React from "react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BiSearch } from "react-icons/bi";
 import { GrOrganization } from "react-icons/gr";
 import { BsFillPersonFill } from "react-icons/bs";
 import {
   AiOutlineUser,
-  AiOutlineShoppingCart,
   AiOutlineClose,
 } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
@@ -67,7 +65,7 @@ export default function Navbar() {
             className="hover:opacity-95 opacity-70 flex flex-row link link-underline link-underline-black"
           >
        <BsFillPersonFill className="mt-1 icon-top mr-3" />
-            Consumer
+            User
           </Link>
           <Link
             href="/Company"
@@ -91,17 +89,17 @@ export default function Navbar() {
             href="/"
           >
             {" "}
-            Book Odyssey{" "}
+            Fuelerr{" "}
           </Link>
         </div>
         <div className="flex mt-2 gap-x-6  mr-2 md:hidden">
-          <Link href="/Search">
+          <Link href="/Consumer">
             {" "}
-            <BiSearch className="icon-top" />
+            <BsFillPersonFill className="icon-top" />
           </Link>
-          <Link href="/Cart">
+          <Link href="/Company">
             {" "}
-            <AiOutlineShoppingCart className="icon-top" />
+            <GrOrganization className="icon-top" />
           </Link>
         </div>
       </div>
@@ -123,9 +121,9 @@ export default function Navbar() {
             <AiOutlineClose className="icon-bottom" />
           </button>
           <div className="flex flex-col items-center justify-center gap-2 gap-x-4">
-            <Link href="/" className="font-main text-2xl font-medium">Book Odyssey</Link>
+            <Link href="/" className="font-main text-2xl font-medium">Fuelerr</Link>
             <p className="text-center px-6 font-MyFont">
-              One of the best book stores in the World
+            Simplifies Your Fuel refilling and consumptions experience.
             </p>
           </div>
           <nav className="mt-8 mb-6 self-stretch">
@@ -143,23 +141,23 @@ export default function Navbar() {
                 </li>
                 <li className="flex w-full flex-col">
                   <Link
-                    href="/Account"
+                    href="/Consumer"
                     onClick={closeModal}
                     className="flex items-center gap-x-2 py-1 px-2 text-xl"
                   >
                     {" "}
-                    <span>Account</span>
+                    <span>User</span>
                     <AiOutlineUser className="opacity-90" />
                   </Link>
                 </li>
                 <li className="flex w-full flex-col">
                   <Link
-                    href="/Wishlist"
+                    href="/Company"
                     onClick={closeModal}
                     className="flex items-center gap-x-2 py-1 px-2 text-xl"
                   >
                     {" "}
-                    <span>Whishlist</span>
+                    <span>Company</span>
                     <FaRegHeart className="opacity-80 " />
                   </Link>
                 </li>

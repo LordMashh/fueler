@@ -25,10 +25,10 @@ export default function Main() {
       <div className="info-wrapper flex flex-1 flex-col gap-y-4 md:justify-center lg:justify-end lg:gap-y-8">
         <h1 className="font-main text-4xl font-semibold md:!leading-tight lg:text-5xl xl:text-6xl opacity-80 ">
           {" "}
-          Simplifies Your <br></br> Fuel refilling and consumptions.
+           Simplifies Your <br></br> Fuel refilling and consumptions experience.
         </h1>
         <p className="font-MyFont lg:text-lg opacity-80 ">
-          Transform Your Refueling Experience! Discover real-time fuel prices,
+          Transform Your Refueling Experience! Discover real-time fuel conditions,
           locate nearby stations, and plan efficient routes with FuelEase. Say
           goodbye to guesswork and long lines, and embrace a smoother, more
           cost-effective way to refuel. Join us today for a smarter, more
@@ -60,8 +60,8 @@ export default function Main() {
           </Link>
         </div>
         <div className="mt-12 flex gap-2 font-MyFont divide-x divide-textgray md:w-[125%] lg:w-auto">
-          <div className="">Fast Delivery</div>
-          <div className=" pl-2">Exclusive Deals</div>
+          <div className="">Fuel Efficient</div>
+          <div className=" pl-2">Exclusive Details of particular pumps</div>
           <div className=" pl-2">Curated Collections</div>
         </div>
       </div>
